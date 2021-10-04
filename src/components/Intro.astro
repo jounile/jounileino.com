@@ -1,0 +1,16 @@
+---
+export interface Props {
+  description: string;
+}
+const { description } = Astro.props;
+---
+
+<section class="intro">
+    <img src="/assets/author.jpeg" />
+    <p>{description}</p>
+    <div class="links">
+    <p>
+        <a href="/contact">Contact</a>
+    </p>
+    </div>
+</section>

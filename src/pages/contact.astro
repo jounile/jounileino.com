@@ -1,0 +1,67 @@
+---
+// Component Imports
+import BaseHead from '../components/BaseHead.astro';
+import BlogHeader from '../components/BlogHeader.astro';
+import Intro from '../components/Intro.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  heroImage: string;
+}
+
+const { heroImage } = Astro.props;
+
+// Component Script:
+// You can write any JavaScript/TypeScript that you'd like here.
+// It will run during the build, but never in the browser.
+// All variables are available to use in the HTML template below.
+let title = 'jounileino.com';
+let description = '"Appreciate the past, enjoy the present and implement the future!"';
+let permalink = 'https://jounileino.com/';
+
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} permalink={permalink} />
+    <link rel="stylesheet" href="/blog.css" />
+    <style>
+      .bio {
+        font-size: var(--f-u1);
+        line-height: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <BlogHeader />
+    <div class="layout">
+      <article class="content">
+
+        <Intro description={description} />
+
+        <div class="bio wrapper wrapper__readable mt8">
+          <p>Hi there =)</p>
+
+          <p>I am a software engineer from Finland, currently living in Germany and working in the automotive industry. My greatest asset is technical problem-solving skills and I aspire to improve teamwork by effective communication.</p>
+
+          <p>Developing applications and tools is my passion and outside work assignments I love to implement cloud based solutions. I have been providing technical consulting to some non-profit organizations as long as I have been programming because I believe this is the best way to learn new technologies in real environments while also doing some good and helping others.</p>
+
+          <p>Feel free to contact me if you think I could be of help in a project for a great cause.</p>
+
+          <br />
+          <p>
+          Jouni Leino<br />
+          mobile +49 170 604 19 62<br />
+          email: hello@jounileino.com<br />
+          </p>
+          
+        </div>
+
+        <Footer />
+      
+      </article>
+
+      
+    </div>
+  </body>
+</html>
