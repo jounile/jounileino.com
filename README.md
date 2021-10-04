@@ -1,4 +1,4 @@
-# FWRD Blog
+# jounileino.com
 
 Any static assets, like images, can be placed in the `public/` directory.
 
