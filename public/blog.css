@@ -314,7 +314,6 @@ header {
 
 .intro {
   text-align: center;
-  padding-bottom: 4rem;
   margin-bottom: 2rem;
   border-bottom: 4px solid var(--theme-divider);
 }

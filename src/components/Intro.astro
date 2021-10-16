@@ -6,11 +6,79 @@ const { description } = Astro.props;
 ---
 
 <section class="intro">
-    <img src="/assets/author.jpeg" />
-    <p>{description}</p>
-    <div class="links">
-    <p>
-        <a href="/contact">Contact</a>
-    </p>
+  <div class="blog-header">
+    <a class="blog-author" href="https://jounileino.com" style="background-image: url('/assets/author.jpeg')">jounileino.com</a>
+    <h1 class="blog-title">jounileino.com</h1>
+    <h2 class="blog-description">{description}</h2>
+    <div class="custom-links">
+
+      <a class="icon-twitter" href="https://twitter.com/humandebugger" title="Follow me on twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+   
+      <a class="icon-facebook" href="https://facebook.com/jounileino" title="Connect with me facebook">
+        <i class="fa fa-facebook"></i>
+      </a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+   
+      <a class="icon-github" href="https://github.com/jounile" title="Fork me on github">
+        <i class="fa fa-github"></i>
+      </a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+   
+      <a class="icon-linkedin" href="https://linkedin.com/in/jounileino" title="Connect with me on LinkedIn">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+
+      <a href="/contact">Contact</a>
+
     </div>
+  </div>
 </section>
+
+<style>
+
+.blog-header {
+  padding-top: 140px;
+}
+
+.blog-author {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40px;
+  right: 50%;
+  margin-right: -100px;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 99;
+  text-indent: -9999px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.blog-title {
+  padding-bottom: 0px;
+}
+
+.blog-description {
+  margin-top: 0px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #666;
+  text-align: center;
+  font-weight: 400;
+}
+
+.custom-links {
+  margin: 0 0 50px;
+  text-align: center;
+  color: #ccc;
+}
+
+</style>
