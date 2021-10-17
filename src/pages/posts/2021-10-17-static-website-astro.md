@@ -1,6 +1,6 @@
 ---
 title: 'Static website hosting' 
-description: 'Optimize for performance and easy of use' 
+description: 'Optimize for performance and ease of use' 
 publishDate: '17. October 2021' 
 author: 'Author' 
 heroImage: '' 
