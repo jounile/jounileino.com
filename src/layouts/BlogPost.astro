@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 const {content} = Astro.props;
 const {title, description, publishDate, author, heroImage, permalink, alt} = content;
 ---
+
 <html lang={ content.lang || 'en' }>
   <head>
     <BaseHead title={title} description={description} permalink={permalink} />
@@ -22,4 +23,3 @@ const {title, description, publishDate, author, heroImage, permalink, alt} = con
     <Footer />
   </body>
 </html>
-

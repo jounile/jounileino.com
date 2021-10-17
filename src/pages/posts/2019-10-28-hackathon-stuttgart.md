@@ -76,7 +76,7 @@ The last challenge was to come up with a good storyline and a presentation that 
 It was truly a joy getting hands on experience with Porsche IVI and making some great connections. This is a perfect example of rapid development enabled by modern tooling and talented, highly motivated people.
 
 
-<img src="/blog/hackathon-stuttgart/testing.jpeg" width="720" alt="Testing" />
+<img src="/blog/hackathon-stuttgart/testing.jpeg" width="700" alt="Testing" />
 
 
 [hackathon-stuttgart]:   https://www.hackathon-stuttgart.de/

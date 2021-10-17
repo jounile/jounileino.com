@@ -11,7 +11,7 @@ layout: '../../layouts/BlogPost.astro'
 AWS Gameday is a fun game like event where participants compete against each other in teams.
 The goal is to create and run online services for a Fictional company named "Unicorn Rentals".
 
-<img src="/blog/aws-live-virtual-gameday/scoreboard.png" width="720" alt="Scoreboard" />
+<img src="/blog/aws-live-virtual-gameday/scoreboard.png" width="700" alt="Scoreboard" />
 
 The event was live streamed via [Twitch][twitch] with commentary and live scoreboard. Also some AWS employees participated in the event as a team and share their progress, insights and thoughts during the game.
 
