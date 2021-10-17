@@ -14,7 +14,7 @@ The original website was created in 2000 and was loved by the Finnish skateboard
 
 The implementation of the website was rather old school and chaotic as multiple independent developers had written features directly in production environment for multiple years. It was built without any framework using PHP programming language and the MySQL database was polluted with obsolete data. 
 
-<img src="/blog/community-website-rebuild/rebuilt_website.png" alt="Nolla.net" width="700" />
+<img src="/blog/community-website-rebuild/rebuilt_website.png" alt="Nolla.net" width="720" />
 
 I was given access to the application server and database by a friend who had been hosting it and so decided to have a look what could be done to improve the situation and bring the site back alive. I had a couple of ideas in mind:
 

@@ -335,3 +335,14 @@ header {
   text-align: center;
 }
 
+.content img {
+  width: 720px; 
+  height: auto;
+}
+
+@media (max-width:720px){
+  .content img {
+    width: 280px;
+    height: auto;
+  }
+}
