@@ -25,21 +25,13 @@ let permalink = 'https://jounileino.com/';
   <head>
     <BaseHead title={title} description={description} permalink={permalink} />
     <link rel="stylesheet" href="/blog.css" />
-    <style>
-      .bio {
-        font-size: var(--f-u1);
-        line-height: 2;
-      }
-    </style>
   </head>
   <body>
     <BlogHeader />
     <div class="layout">
       <article class="content">
-
         <Intro description={description} />
-
-        <div class="bio wrapper wrapper__readable mt8">
+        <section>
           <p>Hi there =)</p>
 
           <p>I am a software engineer from Finland, currently living in Germany and working in the automotive industry. My greatest asset is technical problem-solving skills and I aspire to improve teamwork by effective communication.</p>
@@ -49,13 +41,15 @@ let permalink = 'https://jounileino.com/';
           <p>Feel free to contact me if you think I could be of help in a project for a great cause.</p>
 
           <br />
+
           <p>
           Jouni Leino<br />
           mobile +49 170 604 19 62<br />
           email: hello@jounileino.com<br />
           </p>
           
-        </div>
+        </section>
+        <div class="footer-divider"></div>
         <Footer />
       </article>
 

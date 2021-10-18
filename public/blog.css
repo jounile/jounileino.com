@@ -335,6 +335,11 @@ header {
   text-align: center;
 }
 
+.footer-divider {
+  margin-top: 2rem;
+  border-bottom: 4px solid var(--theme-divider);
+}
+
 .content img {
   width: 720px; 
   height: auto;
