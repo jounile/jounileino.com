@@ -29,7 +29,7 @@ Mercedes exhibition was a clear winner in my eyes. Their whole building had a sp
 
 <img src="/blog/iaa-frankfurt/mese.jpeg" width="720" />
 
-<img src="/blog/iaa-frankfurt/mercedes.jprg" width="720" />
+<img src="/blog/iaa-frankfurt/mercedes.jpeg" width="720" />
 
 Exhibition price was very reasonable 17 eur for a day ticket during the weekend. Buying online via IAA app included a 2 eur discount. 
 
