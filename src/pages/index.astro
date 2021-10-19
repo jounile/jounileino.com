@@ -33,10 +33,10 @@ allPosts = allPosts.sort((a, b) => new Date(b.publishDate).valueOf() - new Date(
   </head>
 
   <body>
-    <BlogHeader />
+    <BlogHeader permalink={permalink} />
     <div class="layout">
       <article class="content">
-        <Intro description={description} />
+        <Intro permalink={permalink} title={title} description={description} />
         <section>
           {allPosts.map(p => <BlogPostPreview post={p} />)}
         </section>        

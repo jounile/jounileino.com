@@ -27,10 +27,10 @@ let permalink = 'https://jounileino.com/';
     <link rel="stylesheet" href="/blog.css" />
   </head>
   <body>
-    <BlogHeader />
+    <BlogHeader permalink={permalink} />
     <div class="layout">
       <article class="content">
-        <Intro description={description} />
+        <Intro permalink={permalink} title={title} description={description} />
         <section>
           <p>Hi there =)</p>
 

@@ -1,14 +1,16 @@
 ---
 export interface Props {
+  permalink: string;
+  title: string;
   description: string;
 }
-const { description } = Astro.props;
+const { permalink, title, description } = Astro.props;
 ---
 
 <section class="intro">
   <div class="blog-header">
-    <a class="blog-author" href="https://jounileino.com" style="background-image: url('/assets/author.jpeg')">jounileino.com</a>
-    <h1 class="blog-title">jounileino.com</h1>
+    <a class="blog-author" href="{permalink}" style="background-image: url('/assets/author.jpeg')">{title}</a>
+    <h1 class="blog-title">{title}</h1>
     <h2 class="blog-description">{description}</h2>
     <div class="custom-links">
 

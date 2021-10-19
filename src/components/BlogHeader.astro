@@ -1,11 +1,14 @@
 ---
-let domain = 'jounileino.com'
+export interface Props {
+  permalink: string;
+}
+const { permalink } = Astro.props;
 ---
 
 <header class="layout">
   <article>
     <h1>
-      <a href="https://jounileino.com">
+      <a href="{permalink}">
         <img width="40" height="40" src="/assets/jl-logo.png" alt="Astro logo">
       </a>
     </h1>
