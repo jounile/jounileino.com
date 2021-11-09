@@ -16,7 +16,7 @@ const {title, description, publishDate, author, heroImage, permalink, alt} = con
   </head>
 
   <body>
-    <BlogHeader />
+    <BlogHeader permalink={permalink} />
     <BlogPost title={title} description={description} author={author} heroImage={heroImage} publishDate={publishDate} alt={alt}>
       <slot />
     </BlogPost>
