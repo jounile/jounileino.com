@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 """
 Before using this script run the following command: 
-npm run dist
+$ npm run build
 
 Hosting a static website in AWS S3 requires that names of the accessed object is exactly the one that a link points to.
 Astro creates a /dist directory with all the HTML pages. Astro creates also routes that have no .html extension.
@@ -17,7 +17,8 @@ becomes this
 <a href="/contact.html">Link</a>
 
 This script will update the links and write the prettified html content into each HTML file.
-After this script has complete you can sync the /dist directory content to S3 bucket.
+After this script has executed you can sync the /dist directory content to S3 bucket.
+See the project README
 """
 
 files = ["dist/index.html", "dist/contact.html"]
