@@ -9,7 +9,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.20.8",
-    "@astrojs/renderer-preact": "^0.2.2"
+    "@astrojs/renderer-preact": "^0.2.2",
+    "astro": "^0.20.8"
   }
 }
