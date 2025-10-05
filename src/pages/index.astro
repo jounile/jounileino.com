@@ -34,17 +34,13 @@ allPosts = allPosts.sort((a, b) => new Date(b.publishDate).valueOf() - new Date(
 
   <body>
     <BlogHeader permalink={permalink} />
-<!--    
-<div class="layout">
+   
+    <div class="layout">
       <article class="content">
         <Intro permalink={permalink} title={title} description={description} />
-        <section>
-          {allPosts.map(p => <BlogPostPreview post={p} />)}
-        </section>        
-        <Footer />
-      </article>
-      
+
+      </article>      
     </div>
--->
+
   </body>
 </html>
