@@ -5,7 +5,6 @@ publishDate: '13. April 2022'
 author: 'Author' 
 heroImage: '' 
 alt: 'Astro' 
-layout: '../../layouts/BlogPost.astro'
 ---
 
 Let´s have a look on how Unreal applications can be shared via browser using PixelStreaming.

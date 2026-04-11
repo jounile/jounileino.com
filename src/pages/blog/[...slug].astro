@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import BlogHeader from '../../components/BlogHeader.astro';
+import BlogPost from '../../components/BlogPost.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const { title, description, publishDate, author, heroImage, alt } = post.data;
+const permalink = `https://jounileino.com/blog/${post.slug}`;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} permalink={permalink} />
+    <link rel="stylesheet" href="/blog.css" />
+  </head>
+  <body>
+    <BlogHeader permalink={permalink} />
+    <BlogPost title={title} description={description} author={author} heroImage={heroImage} publishDate={publishDate} alt={alt}>
+      <Content />
+    </BlogPost>
+    <Footer />
+  </body>
+</html>

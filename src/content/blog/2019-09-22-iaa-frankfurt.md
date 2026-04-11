@@ -5,7 +5,6 @@ publishDate: '22. September 2019'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 
 International Motor Show in Frankfurt was a blast!

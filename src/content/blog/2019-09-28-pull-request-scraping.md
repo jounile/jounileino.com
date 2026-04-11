@@ -5,7 +5,6 @@ publishDate: '1. October 2019'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 
 Sometimes you may want to gather information from a webste and create a report of the gathered data. Extracting data from a web page is called web scraping.

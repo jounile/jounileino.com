@@ -5,7 +5,6 @@ publishDate: '17. October 2021'
 author: 'Author' 
 heroImage: '' 
 alt: 'Astro' 
-layout: '../../layouts/BlogPost.astro'
 ---
 
 My blog was previously created with [Jekyll][jekyll-website] so it required using Ruby libs. I felt this was somehow a bit cumbersome so I kinda avoided updating the blog just for that reason. Jekyll outputs a static website which I hosted in AWS. 
@@ -72,7 +71,6 @@ publishDate: '17. October 2021'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 ```
 

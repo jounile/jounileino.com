@@ -5,7 +5,6 @@ publishDate: '3. April 2022'
 author: 'Author' 
 heroImage: '' 
 alt: 'Astro' 
-layout: '../../layouts/BlogPost.astro'
 ---
 
 Epic Games and Car Design News announced a Unreal Engine HMI Design Challenge in February.

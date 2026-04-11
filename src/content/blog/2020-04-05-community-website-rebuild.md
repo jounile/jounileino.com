@@ -5,7 +5,6 @@ publishDate: '4. April 2020'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 
 

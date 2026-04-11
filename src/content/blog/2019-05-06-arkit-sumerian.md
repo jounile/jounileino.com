@@ -5,7 +5,6 @@ publishDate: '6. May 2019'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 
 AR with AWS Sumerian

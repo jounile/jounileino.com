@@ -5,7 +5,6 @@ publishDate: '28. October 2019'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 
 

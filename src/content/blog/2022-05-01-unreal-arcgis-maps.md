@@ -5,7 +5,6 @@ publishDate: '1. May 2022'
 author: 'Author' 
 heroImage: '' 
 alt: 'Astro' 
-layout: '../../layouts/BlogPost.astro'
 ---
 
 ArcGIS Maps SDK for Unreal Engine is a plugin developed by Esri that enables access to real world maps and 3D content from the ArcGIS Platform. You can join the beta program from the Esri Early Adopter site and download the ArcGIS Maps SDK for Unreal Engine beta plugin.

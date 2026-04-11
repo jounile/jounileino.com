@@ -1,18 +1,16 @@
 ---
-export interface Props {
-  post: any;
-}
-
 const { post } = Astro.props;
+const { title, description, publishDate } = post.data;
+const url = `/blog/${post.slug}`;
 ---
 <article class="post-preview">
   <header>
-    <h3 class="publish-date">{post.publishDate}</h3>
-    <a href={post.url}><h1 class="title">{post.title}</h1></a>
+    <h3 class="publish-date">{publishDate}</h3>
+    <a href={url}><h1 class="title">{title}</h1></a>
   </header>
   <main>
-    <p>{post.description}</p>
-    <a href={post.url}>Read more</a>
+    <p>{description}</p>
+    <a href={url}>Read more</a>
   </main>
 </article>
 

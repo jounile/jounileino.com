@@ -5,7 +5,6 @@ publishDate: '17. May 2019'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 
 Visual regression testing is a good way to detect visual deviations between software releases. Screenshotting the visual output of an application along each release can be automated with a CI pipeline. The actual test logic can be done in multiple ways.

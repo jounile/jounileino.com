@@ -5,7 +5,6 @@ publishDate: '17. October 2019'
 author: 'Author'
 heroImage: ''
 alt: 'Astro'
-layout: '../../layouts/BlogPost.astro'
 ---
 
 AWS Gameday is a fun game like event where participants compete against each other in teams.

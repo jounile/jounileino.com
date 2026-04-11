@@ -5,7 +5,6 @@ publishDate: '18. October 2021'
 author: 'Author' 
 heroImage: '' 
 alt: 'Astro' 
-layout: '../../layouts/BlogPost.astro'
 ---
 
 In this blog post I try to describe how you can put together a scalable and cost effective website infrastructure using AWS.
